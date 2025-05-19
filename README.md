@@ -48,3 +48,7 @@ I also calculated the profits (total_inflow and total_outflow) in the individual
 I set the confirmed_amount and amount_withdrawn to greater than 0 because zero transactions would have affected my clv calculations by overestimating the outflow and inflow.
 
 Since some customers might not have inflow or outflow transactions, I used COALESCE to replace NULL values with zero to prevent calculation errors.
+
+
+## Challenges
+All the queries were somewhat challenging and required some level of iteration to get them right, but I didn't have any specific challenges. The questions had some edge cases (especially the NULL values) that I only caught because I was checking my results frequently while writing the query.
